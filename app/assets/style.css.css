@@ -1,0 +1,76 @@
+body {
+    background-color: white; 
+    zoom: 67%;
+}
+
+.dashboard-container {
+    width: 1800px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Inter"; 
+    color: black; 
+    font-size: 43px;
+    margin: 15px;
+}
+
+h2 {
+    font-family: "Inter"; 
+    color: black; 
+    font-size: 35px;
+    margin: 15px;
+}
+
+h3 {
+    font-family: "Inter"; 
+    color: black; 
+    font-size: 20px;
+    margin: 15px;
+}
+
+h4 {
+    font-size: 19px;  /* Cambia el tamaño de la fuente */
+    font-weight: bold;  /* Haz el texto en negrita */
+    color: #f5a623;  /* Cambia el color del texto (puedes elegir otro) */
+    margin-top: 10px;
+    text-align: center;  /* Asegura que los valores estén centrados */
+}
+
+p {
+    font-family: "Poppins";
+    color: black;
+    font-size: 10px;
+    margin: 15px;
+    text-align: justify;
+}
+
+sectiontitle {
+    font-family: "Inter"; 
+    color: black; 
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+.custom-slider .rc-slider-mark-text {
+    color: black !important;
+}
+
+.custom-slider .rc-slider-rail {
+    background-color: black !important;
+}
+
+.custom-slider .rc-slider-handle {
+    background-color: black !important;
+    border-color: black !important;
+}
