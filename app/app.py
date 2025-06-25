@@ -216,7 +216,13 @@ price_corr_bar = go.Figure(
 # Configurar diseño del gráfico
 price_corr_bar.update_layout(
     title="Correlación de PRICE con las demás variables",
-    xaxis=dict(title="Correlación"),
+    xaxis=dict(
+        title=dict(
+            text="Correlación",
+            font=dict(size=14),
+            standoff=150,
+        ),
+    ),
     yaxis=dict(title="Variables"),
     height=600,
     width=800,
@@ -292,7 +298,13 @@ for neighborhood in sorted_neighborhoods:
 # Configurar diseño del gráfico
 price_boxplot.update_layout(
     title="Distribución de Precios por Barrio (Top 3 más caros y baratos)",
-    xaxis=dict(title="Barrios"),
+    xaxis=dict(
+        title=dict(
+            text="Barrios",
+            font=dict(size=14),
+            standoff=160,
+        ),
+    ),
     yaxis=dict(title="Precio de las viviendas"),
     height=600,
     width=800,
