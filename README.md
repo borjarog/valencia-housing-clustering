@@ -1,6 +1,6 @@
 # Valencia Housing Clustering Analysis
 
-🔗 **Online online**: [App on Render](https://nombre-de-tu-app.onrender.com)
+🔗 **Online app**: [App on Render](https://nombre-de-tu-app.onrender.com)
 
 ## Overview
 
